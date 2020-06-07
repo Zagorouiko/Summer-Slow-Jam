@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.summerslowjam.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\Dr.Z\\Downloads\\VR_GameDev\\Summer Slow Jam\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Summer Slow Jam [Testing]"
+        }
+      }
+    }
+  ]
+}
