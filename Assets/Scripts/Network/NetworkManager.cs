@@ -9,6 +9,9 @@ namespace Photon.Pun.UtilityScripts
     public class NetworkManager : MonoBehaviourPunCallbacks
 {
     public GameObject headPrefab;
+    public GameObject leftHandPrefab;
+    public GameObject rightHandPrefab;
+
     public bool AutoConnect = true;
 
     /// <summary>Used as PhotonNetwork.GameVersion.</summary>
@@ -67,6 +70,8 @@ namespace Photon.Pun.UtilityScripts
     {
         Debug.Log("OnJoinedRoom() called by PUN. Now this client is in a room in region [" + PhotonNetwork.CloudRegion + "]. Game is now running.");
         PhotonNetwork.Instantiate(headPrefab.name, VRManager.instance.head.transform.position, VRManager.instance.head.transform.rotation, 0);
-    }
+        PhotonNetwork.Instantiate(leftHandPrefab.name, VRManager.instance.leftHand.transform.position, VRManager.instance.leftHand.transform.rotation, 0);
+        PhotonNetwork.Instantiate(rightHandPrefab.name, VRManager.instance.rightHand.transform.position, VRManager.instance.rightHand.transform.rotation, 0);
+        }
     }
 }
