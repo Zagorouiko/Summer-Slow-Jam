@@ -18,10 +18,10 @@ namespace Photon.Pun.UtilityScripts
                         transform.position = VRManager.instance.head.transform.position;
                         transform.rotation = VRManager.instance.head.transform.rotation;
                         break;
-                    case 2:
-                        transform.position = VRManager.instance.leftHand.transform.position;
-                        transform.rotation = VRManager.instance.leftHand.transform.rotation;
-                        break;
+                    //case 2:
+                    //    transform.position = VRManager.instance.leftHand.transform.position;
+                    //    transform.rotation = VRManager.instance.leftHand.transform.rotation;
+                    //    break;
                     case 3:
                         transform.position = VRManager.instance.rightHand.transform.position;
                         transform.rotation = VRManager.instance.rightHand.transform.rotation;

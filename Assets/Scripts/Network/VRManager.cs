@@ -5,7 +5,7 @@ using UnityEngine;
 public class VRManager : MonoBehaviour
 {
     public GameObject head;
-    public GameObject leftHand;
+    //public GameObject leftHand;
     public GameObject rightHand;
 
     public static VRManager instance;

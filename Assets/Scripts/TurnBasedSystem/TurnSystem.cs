@@ -25,11 +25,6 @@ public class TurnSystem : MonoBehaviour
         StartCoroutine(Player1Round());
     }
 
-    void Update()
-    {
-
-    }
-
     IEnumerator Player1Round()
     {
         yield return new WaitForSeconds(3f);
@@ -46,10 +41,9 @@ public class TurnSystem : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        Debug.Log(other.gameObject.name +"block exited");
         if (other.gameObject.tag == "Block" && state == TurnState.PLAYER1TURN)
         {
-            Debug.Log("block exited");
+            //Debug.Log("block exited");
             StartCoroutine(Player2Round());
         }
 

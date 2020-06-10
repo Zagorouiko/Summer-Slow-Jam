@@ -105,6 +105,14 @@ namespace Valve.VR
             }
         }
         
+        public virtual SteamVR_Action_Boolean Rewind
+        {
+            get
+            {
+                return SteamVR_Actions.default_Rewind;
+            }
+        }
+        
         public virtual SteamVR_Action_Vibration Haptic
         {
             get
