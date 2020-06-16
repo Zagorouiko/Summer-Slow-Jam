@@ -11,8 +11,6 @@ public enum TurnState
 public class TurnSystem : MonoBehaviour
 {
     public TurnState state;
-    JengaPlayer player1;
-    //public JengaPlayer player2;
 
     public Text gameStateText;
 
@@ -20,7 +18,6 @@ public class TurnSystem : MonoBehaviour
     {
         state = TurnState.START;
         gameStateText.text = "Game Starting";
-        player1 = FindObjectOfType<JengaPlayer>();
 
         StartCoroutine(Player1Round());
     }
@@ -28,7 +25,7 @@ public class TurnSystem : MonoBehaviour
     IEnumerator Player1Round()
     {
         yield return new WaitForSeconds(3f);
-        gameStateText.text = "Player 1 Turn";
+        gameStateText.text = JengaGameManager.instance.Player1.NickName;
         state = TurnState.PLAYER1TURN;
     }
 
@@ -43,7 +40,6 @@ public class TurnSystem : MonoBehaviour
     {
         if (other.gameObject.tag == "Block" && state == TurnState.PLAYER1TURN)
         {
-            //Debug.Log("block exited");
             StartCoroutine(Player2Round());
         }
 
