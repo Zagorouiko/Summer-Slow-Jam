@@ -151,6 +151,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -297,6 +302,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -365,6 +375,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -453,6 +468,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -521,6 +541,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -591,6 +616,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -630,6 +660,80 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e621f44d9a1823438e9704c5713ac01, type: 3}
+--- !u!1001 &370841184
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_Name
+      value: Jenga Block
+      objectReference: {fileID: 0}
+    - target: {fileID: 425218856098573443, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.214
+      objectReference: {fileID: 0}
+    - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.899
+      objectReference: {fileID: 0}
+    - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.677
+      objectReference: {fileID: 0}
+    - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -742,6 +846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   gameStateText: {fileID: 79130052}
+  currentBlockInPlay: {fileID: 0}
 --- !u!65 &432602165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -763,7 +868,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432602163}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.083, y: 1.449, z: -2.501}
+  m_LocalPosition: {x: 0.704, y: 1.449, z: -2.491}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1601887718}
@@ -780,6 +885,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -850,6 +960,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -918,6 +1033,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -1018,6 +1138,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1091,7 +1216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &839593974
 Transform:
   m_ObjectHideFlags: 0
@@ -1120,6 +1245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   gameStateText: {fileID: 79130052}
+  currentBlockInPlay: {fileID: 0}
 --- !u!1001 &849528576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1131,6 +1257,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -1306,6 +1437,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1374,6 +1510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -1462,6 +1603,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1543,6 +1689,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1612,6 +1763,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1680,6 +1836,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -1781,7 +1942,7 @@ Transform:
   - {fileID: 1578927699}
   - {fileID: 2115544751}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1305229417
 PrefabInstance:
@@ -1794,6 +1955,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -1869,6 +2035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -1963,7 +2134,7 @@ Transform:
   - {fileID: 839593974}
   - {fileID: 2114564362}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1358916023 stripped
 Transform:
@@ -1982,6 +2153,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -2051,6 +2227,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -2139,6 +2320,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2207,6 +2393,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -2527,7 +2718,7 @@ Transform:
   - {fileID: 1946454801}
   - {fileID: 561479453}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1605209111 stripped
 Transform:
@@ -2552,6 +2743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -2622,6 +2818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2690,6 +2891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -2777,7 +2983,7 @@ Transform:
   m_Children:
   - {fileID: 872419913}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -36.484, z: 0}
 --- !u!4 &1765777304 stripped
 Transform:
@@ -2802,6 +3008,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -2878,6 +3089,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2946,6 +3162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -3016,6 +3237,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3085,6 +3311,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3153,6 +3384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -3229,6 +3465,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3304,6 +3545,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jenga Block (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3378,6 +3624,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}
@@ -3525,7 +3776,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115544750}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: ec12f7772c03e4c4c9e4c2f1643595ad,
     type: 2}
@@ -3632,6 +3883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jenga Block
+      objectReference: {fileID: 0}
+    - target: {fileID: 424785094571745344, guid: 8e621f44d9a1823438e9704c5713ac01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425761373264130858, guid: 8e621f44d9a1823438e9704c5713ac01,
         type: 3}

@@ -6,18 +6,22 @@ using Photon.Realtime;
 
 public class JengaGameManager : MonoBehaviourPunCallbacks
 {
-    [SerializeField] GameObject playerPrefab;
-    public Player Player1;
-    public Player Player2;
+    public GameObject playerPrefab;
 
-    public static JengaGameManager instance;
+    public Player player1;
+    public Player player2;
+
+    public static JengaGameManager instance { get; private set; }
 
     void Start()
     {
+        instance = this;
+
         if (PhotonNetwork.IsConnected)
         {
-            var playerGO = PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(-0.256f, 0f, 0.125f), Quaternion.identity);
-            Player1 = playerGO.GetComponent<Player>();
+            PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(-0.256f, 0f, 0.125f), Quaternion.identity);
+            player1 = PhotonNetwork.PlayerList[0];
+
         }
     }
 
@@ -26,9 +30,9 @@ public class JengaGameManager : MonoBehaviourPunCallbacks
         Debug.Log(PhotonNetwork.NickName + " joined to " + PhotonNetwork.CurrentRoom.Name);
     }
 
-    public override void OnPlayerEnteredRoom(Player player2)
+    public override void OnPlayerEnteredRoom(Player _player2)
     {
         Debug.Log(PhotonNetwork.NickName + " joined to " + PhotonNetwork.CurrentRoom.Name + " player count: " + PhotonNetwork.CurrentRoom.PlayerCount);
-        Player2 = player2;
+        player2 = _player2;
     }
 }

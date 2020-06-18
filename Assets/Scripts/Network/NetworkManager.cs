@@ -13,11 +13,13 @@ using System;
     public GameObject ConnectionStatusPanel;
     public Text titleText;
 
+
     #region Unity Methods
         public void Start()
     {
         EnterGamePanel.SetActive(true);
         ConnectionStatusPanel.SetActive(false);
+
      }
 
      void Awake()
@@ -80,11 +82,6 @@ using System;
         public override void OnDisconnected(DisconnectCause cause)
     {
         Debug.Log("OnDisconnected(" + cause + ")");
-    }
-
-    public override void OnPlayerEnteredRoom(Player newPlayer)
-    {
-        Debug.Log(newPlayer.NickName + " joined to " + PhotonNetwork.CurrentRoom.Name + ", player count: " + PhotonNetwork.CurrentRoom.PlayerCount);
     }
 
         public override void OnJoinedRoom()

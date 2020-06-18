@@ -37,8 +37,7 @@ namespace Valve.VR.InteractionSystem
         {
             if (playerNameText != null)
             {
-                playerNameText.text = PhotonView.Find(photonView.ViewID).Owner.NickName;
-                //playerNameText.text = photonView.Owner.NickName;
+                playerNameText.text = photonView.Owner.NickName;
             }            
         }
     }
