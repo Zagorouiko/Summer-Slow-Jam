@@ -282,7 +282,7 @@
             },
             {
                "inputs" : {
-                  "click" : {
+                  "held" : {
                      "output" : "/actions/default/in/rewind"
                   }
                },
@@ -291,7 +291,7 @@
             },
             {
                "inputs" : {
-                  "click" : {
+                  "held" : {
                      "output" : "/actions/default/in/rewind"
                   }
                },

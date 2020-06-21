@@ -7,57 +7,106 @@ public class TimeBody : MonoBehaviour {
 
 	bool isRewinding = false;
 
-	float recordTime = 1000f;
-
 	LinkedList<PointInTime> pointsInTime;
-
 	Rigidbody rb;
+	TurnSystem turnSystem;
+	ActionScript rewindActionScript;
 
-	// Use this for initialization
+	int lastRound;
+	int currentRound;
+	int currentRoundSnapshot;
+
+
 	void Start () {
+
+		rewindActionScript = FindObjectOfType<ActionScript>();
+
+		turnSystem = FindObjectOfType<TurnSystem>();
+		lastRound = turnSystem.GetCurrentRound();
+		SetInitialRound();
 		pointsInTime = new LinkedList<PointInTime>();
 		rb = GetComponent<Rigidbody>();
 	}
+
 	
-	// Update is called once per frame
 	void Update () {
-		if (SteamVR_Actions._default.Rewind.active)
-			//StartRewind();
-		if (!SteamVR_Actions._default.Rewind.active)
-			StopRewind();
+		currentRound = turnSystem.GetCurrentRound();
+
+		if (JengaGameManager.instance.player1.rewindAmount == 1 && JengaGameManager.instance.player1.player == turnSystem.currentPlayerTurn.player && turnSystem.state == TurnState.GAMEOVER)
+		{
+			if (rewindActionScript.isRewinding)
+			{
+				StartRewind();
+			}				
+		}
+
+		//if (JengaGameManager.instance.player2.rewindAmount == 1 && turnSystem.state == TurnState.GAMEOVER)
+		//{
+		//	if (rewindActionScript.isRewinding)
+		//		StartRewind();
+		//}
 	}
+
+	//public void TriggerDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+	//{
+	//	Debug.Log("Trigger pressed");
+	//}
 
 	void FixedUpdate ()
 	{
 		if (isRewinding)
+		{
 			Rewind();
+		}
 		else
+		{
 			Record();
+		}			
 	}
 
-	void Rewind ()
+	void Rewind()
 	{
 		if (pointsInTime.Count > 0)
 		{
-			PointInTime pointInTime = pointsInTime.First.Value;
+     		PointInTime pointInTime = pointsInTime.First.Value;
             transform.position = pointInTime.position;
 			transform.rotation = pointInTime.rotation;
 			pointsInTime.RemoveFirst();
 		} else
 		{
-			StopRewind();
-		}
-		
+			if (JengaGameManager.instance.player1.rewindAmount >= 1)
+			{
+				
+				Debug.Log(JengaGameManager.instance.player1.rewindAmount);
+				//Make it work with 2 players
+				StopRewind();
+				JengaGameManager.instance.player1.rewindAmount--;
+			}
+		}		
+	}
+
+	IEnumerable SetInitialRound()
+	{
+		yield return new WaitForSeconds(5f);
+		currentRoundSnapshot = turnSystem.GetCurrentRound();
 	}
 
 	void Record ()
 	{
-		if (pointsInTime.Count > Mathf.Round(recordTime / Time.fixedDeltaTime))
-		{
-			//pointsInTime.RemoveLast();
-		}
-
 		pointsInTime.AddFirst(new PointInTime(transform.position, transform.rotation));
+
+		//if (lastRound != currentRound)
+		//{
+		//	pointsInTime.AddFirst(new PointInTime(transform.position, transform.rotation));
+			
+
+		//	if (currentRoundSnapshot != currentRound)
+		//	{
+		//		lastRound = currentRound;
+		//		currentRoundSnapshot++;
+		//		pointsInTime.Clear();
+		//	}
+		//}		
 	}
 
 	public void StartRewind ()
