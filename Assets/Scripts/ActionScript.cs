@@ -8,6 +8,8 @@ public class ActionScript : MonoBehaviour
     public SteamVR_Action_Boolean RewindAction;
     public SteamVR_Input_Sources handType;
 
+    public SteamVR_Action_Boolean TeleportAction;
+
     public bool isRewinding;
 
      void Start()
@@ -18,13 +20,11 @@ public class ActionScript : MonoBehaviour
 
     public void ButtonDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        Debug.Log("Button is down");
         isRewinding = true;
     }
 
     public void ButtonUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
         isRewinding = false;
-        Debug.Log("Button is up");
     }
 }

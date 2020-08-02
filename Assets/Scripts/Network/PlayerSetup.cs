@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using TMPro;
+using Valve.VR.InteractionSystem;
 
-namespace Valve.VR.InteractionSystem
-{  
     public class PlayerSetup : MonoBehaviourPunCallbacks
     {
         [SerializeField] GameObject VRCamera;
@@ -41,5 +40,4 @@ namespace Valve.VR.InteractionSystem
             }            
         }
     }
-}
 

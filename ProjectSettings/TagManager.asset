@@ -7,6 +7,10 @@ TagManager:
   - projectile
   - FxTemporaire
   - Block
+  - SoundHandler
+  - PlayerOutputText
+  - GrabHandle
+  - Grabber
   layers:
   - Default
   - TransparentFX

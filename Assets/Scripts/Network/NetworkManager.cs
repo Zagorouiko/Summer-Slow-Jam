@@ -95,6 +95,6 @@ using System;
         //PhotonNetwork.Instantiate(headPrefab.name, VRManager.instance.head.transform.position, VRManager.instance.head.transform.rotation, 0);
         //PhotonNetwork.Instantiate(leftHandPrefab.name, VRManager.instance.leftHand.transform.position, VRManager.instance.leftHand.transform.rotation, 0);
         //PhotonNetwork.Instantiate(rightHandPrefab.name, VRManager.instance.rightHand.transform.position, VRManager.instance.rightHand.transform.rotation, 0);
-        }
+    }
     }
     #endregion

@@ -110,7 +110,6 @@ GameObject:
   - component: {fileID: 320789269013932128}
   - component: {fileID: 320789303574960654}
   - component: {fileID: 425218856098573443}
-  - component: {fileID: 5428117824494387951}
   - component: {fileID: 350480030332568101}
   m_Layer: 0
   m_Name: Jenga Block
@@ -411,18 +410,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.12, y: 0.08, z: 0.36}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5428117824494387951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424785094571745344}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0c82a0dfece5c24697ea6b509ecabb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &350480030332568101
 MonoBehaviour:
   m_ObjectHideFlags: 0
